@@ -1,5 +1,6 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
 
 /* do not edit this footer */
@@ -24,3 +27,31 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.bar,
+.chill,
+.pep,
+.saf {
+  margin: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+/* TOP solution: */
+/* make a div called container  */
+/* make a div class named info to all the elements */
+
+/* .body {
+  text-align: center;
+} */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  max-width: 200px;
+} */
